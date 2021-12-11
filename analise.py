@@ -37,11 +37,6 @@ def analyse_words(data):
 
     plt.imshow(wc, interpolation='bilinear')
     plt.axis("off")
-
-    # wc = WordCloud(max_font_size=40).generate(text)
-    # plt.figure()
-    # plt.imshow(wc, interpolation="bilinear")
-    # plt.axis("off")
     plt.show()
 
 analyse_words(data)
